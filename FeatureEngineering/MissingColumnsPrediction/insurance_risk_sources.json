@@ -1,0 +1,33 @@
+{
+  "state_commercial_auto": {
+    "year": 2024,
+    "source_url": "https://content.naic.org/sites/default/files/publication-msr-pb-property-casualty.pdf",
+    "local_path": "FeatureEngineering/MissingColumnsPrediction/raw_sources/naic_state_commercial_auto.csv"
+  },
+  "city_crashes": {
+    "year": 2024,
+    "source_url": "https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars",
+    "local_path": "FeatureEngineering/MissingColumnsPrediction/raw_sources/fars_city_truck_crashes.csv"
+  },
+  "city_vehicle_theft": {
+    "year": 2024,
+    "source_url": "https://cde.ucr.cjis.gov/",
+    "local_path": "FeatureEngineering/MissingColumnsPrediction/raw_sources/fbi_city_vehicle_theft.csv"
+  },
+  "city_congestion": {
+    "year": 2024,
+    "source_url": "https://mobility.tamu.edu/umr/report/",
+    "local_path": "FeatureEngineering/MissingColumnsPrediction/raw_sources/tti_congestion.xlsx",
+    "sheet_name": 0
+  },
+  "city_weather_risk": {
+    "year": 2025,
+    "source_url": "https://www.ncei.noaa.gov/stormevents/ftp.jsp",
+    "local_path": "FeatureEngineering/MissingColumnsPrediction/raw_sources/noaa_city_weather_risk.csv"
+  },
+  "state_litigation_risk": {
+    "year": 2025,
+    "source_url": "https://www.ncsc.org/resources-courts/court-statistics-project",
+    "local_path": "FeatureEngineering/MissingColumnsPrediction/raw_sources/state_litigation_proxy.csv"
+  }
+}

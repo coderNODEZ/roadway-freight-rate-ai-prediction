@@ -1,0 +1,258 @@
+{
+  "Albany": {
+    "latitude": 43.96975,
+    "longitude": -71.05842
+  },
+  "Albuquerque": {
+    "latitude": 35.39918,
+    "longitude": -109.59792
+  },
+  "Amarillo": {
+    "latitude": 33.17137,
+    "longitude": -104.36789
+  },
+  "Atlanta": {
+    "latitude": 34.84933,
+    "longitude": -86.2894
+  },
+  "Austin": {
+    "latitude": 29.39553,
+    "longitude": -99.6978
+  },
+  "Bakersfield": {
+    "latitude": 33.28832,
+    "longitude": -116.67935
+  },
+  "Baltimore": {
+    "latitude": 38.16908,
+    "longitude": -72.74564
+  },
+  "Baton Rouge": {
+    "latitude": 30.50134,
+    "longitude": -92.65374
+  },
+  "Birmingham": {
+    "latitude": 33.45794,
+    "longitude": -86.72789
+  },
+  "Boston": {
+    "latitude": 39.27463,
+    "longitude": -69.5
+  },
+  "Buffalo": {
+    "latitude": 41.67681,
+    "longitude": -78.56704
+  },
+  "Charleston": {
+    "latitude": 34.15334,
+    "longitude": -79.74475
+  },
+  "Chattanooga": {
+    "latitude": 35.29792,
+    "longitude": -87.18651
+  },
+  "Cincinnati": {
+    "latitude": 37.15706,
+    "longitude": -86.77499
+  },
+  "Columbia": {
+    "latitude": 34.6357,
+    "longitude": -83.28506
+  },
+  "Corpus Christi": {
+    "latitude": 28.61374,
+    "longitude": -95.89569
+  },
+  "Dallas": {
+    "latitude": 31.83025,
+    "longitude": -94.38343
+  },
+  "Dayton": {
+    "latitude": 39.87206,
+    "longitude": -85.62931
+  },
+  "Detroit": {
+    "latitude": 43.61923,
+    "longitude": -84.04517
+  },
+  "El Paso": {
+    "latitude": 33.31075,
+    "longitude": -110.3123
+  },
+  "Fort Wayne": {
+    "latitude": 41.31561,
+    "longitude": -85.36206
+  },
+  "Fresno": {
+    "latitude": 33.07921,
+    "longitude": -119.79528
+  },
+  "Grand Rapids": {
+    "latitude": 43.438,
+    "longitude": -86.29173
+  },
+  "Green Bay": {
+    "latitude": 44.30296,
+    "longitude": -87.52871
+  },
+  "Greensboro": {
+    "latitude": 35.98195,
+    "longitude": -82.78379
+  },
+  "Harrisburg": {
+    "latitude": 39.71695,
+    "longitude": -78.12481
+  },
+  "Hartford": {
+    "latitude": 39.55328,
+    "longitude": -72.18051
+  },
+  "Houston": {
+    "latitude": 30.71157,
+    "longitude": -94.7655
+  },
+  "Indianapolis": {
+    "latitude": 38.52567,
+    "longitude": -88.85948
+  },
+  "Jacksonville": {
+    "latitude": 31.98691,
+    "longitude": -84.48897
+  },
+  "Kansas City": {
+    "latitude": 39.41104,
+    "longitude": -91.1245
+  },
+  "Las Vegas": {
+    "latitude": 33.22353,
+    "longitude": -115.24994
+  },
+  "Lexington": {
+    "latitude": 36.99152,
+    "longitude": -84.99876
+  },
+  "Little Rock": {
+    "latitude": 34.27518,
+    "longitude": -92.06214
+  },
+  "Los Angeles": {
+    "latitude": 28.56624,
+    "longitude": -116.70249
+  },
+  "Louisville": {
+    "latitude": 37.36588,
+    "longitude": -87.47153
+  },
+  "Lubbock": {
+    "latitude": 29.87534,
+    "longitude": -99.85456
+  },
+  "Madison": {
+    "latitude": 41.70243,
+    "longitude": -89.85588
+  },
+  "Memphis": {
+    "latitude": 35.56802,
+    "longitude": -89.52871
+  },
+  "Milwaukee": {
+    "latitude": 39.6218,
+    "longitude": -88.48008
+  },
+  "Mobile": {
+    "latitude": 31.80442,
+    "longitude": -88.25195
+  },
+  "Montgomery": {
+    "latitude": 31.37602,
+    "longitude": -86.10743
+  },
+  "Nashville": {
+    "latitude": 35.29479,
+    "longitude": -88.08915
+  },
+  "New Orleans": {
+    "latitude": 32.53273,
+    "longitude": -92.19519
+  },
+  "New York": {
+    "latitude": 40.00674,
+    "longitude": -73.7984
+  },
+  "Oklahoma City": {
+    "latitude": 31.88294,
+    "longitude": -98.58097
+  },
+  "Philadelphia": {
+    "latitude": 39.22317,
+    "longitude": -72.9671
+  },
+  "Phoenix": {
+    "latitude": 28.75668,
+    "longitude": -115.87725
+  },
+  "Providence": {
+    "latitude": 37.37287,
+    "longitude": -69.5
+  },
+  "Raleigh": {
+    "latitude": 35.37376,
+    "longitude": -77.47605
+  },
+  "Reno": {
+    "latitude": 39.54838,
+    "longitude": -118.64843
+  },
+  "Richmond": {
+    "latitude": 38.09122,
+    "longitude": -76.78906
+  },
+  "Salt Lake City": {
+    "latitude": 35.03488,
+    "longitude": -113.18895
+  },
+  "San Antonio": {
+    "latitude": 29.50969,
+    "longitude": -98.40059
+  },
+  "San Francisco": {
+    "latitude": 35.1967,
+    "longitude": -121.69849
+  },
+  "Savannah": {
+    "latitude": 33.60973,
+    "longitude": -82.29994
+  },
+  "Shreveport": {
+    "latitude": 32.54628,
+    "longitude": -92.31888
+  },
+  "St. Louis": {
+    "latitude": 38.38204,
+    "longitude": -89.88819
+  },
+  "Syracuse": {
+    "latitude": 42.80915,
+    "longitude": -76.89973
+  },
+  "Tampa": {
+    "latitude": 28.35765,
+    "longitude": -86.94782
+  },
+  "Toledo": {
+    "latitude": 41.97663,
+    "longitude": -84.45902
+  },
+  "Tucson": {
+    "latitude": 30.92733,
+    "longitude": -113.23037
+  },
+  "Tulsa": {
+    "latitude": 33.45894,
+    "longitude": -94.78556
+  },
+  "Washington": {
+    "latitude": 38.87577,
+    "longitude": -77.05086
+  }
+}

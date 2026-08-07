@@ -1,0 +1,9 @@
+Complexity,Loss,Equation
+1,0.028088925,"1.0832806"
+5,0.024740841,"(day_cos * -0.08201864) + 1.0833771"
+7,0.023411393,"((day_cos - pickup_freezing_day_bool_False) * -0.08745697) - -1.0056562"
+9,0.022340892,"(((pickup_freezing_day_bool_False + day_sin) - day_cos) * 0.07205993) + 1.0186284"
+11,0.02157341,"(((pickup_freezing_day_bool_True + (day_cos - day_sin)) - delivery_freezing_day_bool_False) * -0.07134818) + 1.0280954"
+13,0.021310428,"(((pickup_freezing_day_bool_True + (day_cos - (day_sin * 0.6395945))) - delivery_freezing_day_bool_False) * -0.08362754) + 1.018173"
+15,0.021303903,"(((day_cos * -1.4573075) + (day_sin + ((pickup_freezing_day_bool_False + pickup_freezing_day_bool_False) * delivery_freezing_day_bool_False))) * 0.05623405) + 0.9893035"
+16,0.02122957,"(((day_sin + (day_cos * -1.5435141)) + (square(pickup_freezing_day_bool_False + delivery_freezing_day_bool_False) * 0.671979)) * 0.053211868) + 0.9602077"
