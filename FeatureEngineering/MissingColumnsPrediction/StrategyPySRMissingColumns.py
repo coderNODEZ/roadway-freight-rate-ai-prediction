@@ -231,9 +231,9 @@ def predict_market_index_column_pysr():
     )
 
     model = PySRRegressor(
-        niterations=200,
-        populations=30,
-        population_size=60,
+        niterations=100,
+        populations=20,
+        population_size=50,
         ncycles_per_iteration=500,
         binary_operators=["+", "-", "*", "/"],
         unary_operators=["square"],
