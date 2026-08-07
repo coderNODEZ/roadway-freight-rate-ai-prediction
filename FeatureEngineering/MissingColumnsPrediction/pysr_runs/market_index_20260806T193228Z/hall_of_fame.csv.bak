@@ -1,0 +1,13 @@
+Complexity,Loss,Equation
+1,0.028088925,"1.0832784"
+5,0.024741095,"(day_cos * -0.08118176) + 1.083432"
+7,0.023414042,"1.0948081 - ((day_cos + pickup_freezing_day_bool_True) * 0.08836442)"
+9,0.022342836,"((day_sin + (pickup_freezing_day_bool_False - day_cos)) * 0.071664914) + 1.0178815"
+11,0.021573242,"(((pickup_freezing_day_bool_False + delivery_freezing_day_bool_False) + (day_sin - day_cos)) * 0.07136518) + 0.95599353"
+13,0.021324348,"(((delivery_freezing_day_bool_False + (day_sin * 0.6728374)) + (pickup_freezing_day_bool_False - day_cos)) * 0.079330616) + 0.9447206"
+15,0.021309711,"((((day_sin * 0.63024914) + ((day_cos * -0.98711544) + delivery_freezing_day_bool_False)) + pickup_freezing_day_bool_False) * 0.083756134) + 0.9346065"
+16,0.021256853,"((day_sin + ((day_cos / -0.6293091) + square((delivery_freezing_day_bool_False + -0.3406022) + pickup_freezing_day_bool_False))) * 0.050939877) + 0.9638188"
+17,0.021234134,"(((((delivery_freezing_day_bool_False * (pickup_freezing_day_bool_False + 0.95414037)) + pickup_freezing_day_bool_False) + day_sin) + (day_cos * -1.6066941)) * 0.05158499) + 0.9505138"
+21,0.021226164,"((((day_sin + ((delivery_freezing_day_bool_False - (pickup_historical_snowfall * 0.21216665)) * pickup_freezing_day_bool_False)) + (day_cos * -1.6066941)) + (delivery_freezing_day_bool_False + pickup_freezing_day_bool_False)) * 0.05158499) + 0.9494662"
+22,0.02122601,"(((day_sin + (delivery_freezing_day_bool_False + (pickup_freezing_day_bool_False + ((delivery_freezing_day_bool_False - (square(0.49198523) * pickup_historical_snowfall)) * pickup_freezing_day_bool_False)))) + (day_cos * -1.6066941)) * 0.05158499) + 0.9494662"
+23,0.0212195,"0.9494662 + ((((pickup_freezing_day_bool_False + day_sin) + (delivery_freezing_day_bool_False + ((delivery_freezing_day_bool_False - ((pickup_historical_snowfall * pickup_insurance_risk) * delivery_freezing_day_bool_False)) * pickup_freezing_day_bool_False))) + (-1.6066941 * day_cos)) * 0.05158499)"
