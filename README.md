@@ -66,7 +66,7 @@ Created chart: scorer_results/candidate_december.png
 Final validation metrics are calculated by Spotter after submission.
 ```
 
-
+![scorer png chart](scorer_results/candidate_december.png)
 
 
 ## Project Overview
