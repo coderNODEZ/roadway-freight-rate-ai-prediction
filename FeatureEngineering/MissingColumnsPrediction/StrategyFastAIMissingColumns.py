@@ -334,7 +334,7 @@ def predict_market_index_column_fastai():
     print("#############################################")   
 
     vis.plot_regression_performance(
-        model_name="TabICLv2",
+        model_name="FastAI",
         training_metrics=training_metrics,
         validation_metrics=validation_metrics,
         testing_metrics=testing_metrics,

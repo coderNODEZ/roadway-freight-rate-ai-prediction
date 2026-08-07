@@ -238,7 +238,7 @@ def predict_market_index_column_catboost():
     print("#############################################")
 
     vis.plot_regression_performance(
-        model_name="TabICLv2",
+        model_name="CatBoost",
         training_metrics=training_metrics,
         validation_metrics=validation_metrics,
         testing_metrics=testing_metrics,
