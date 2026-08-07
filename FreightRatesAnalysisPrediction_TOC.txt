@@ -43,10 +43,10 @@
   - 5.2 Apply TabICLv2 to validation.csv
     - 5.2.1 Predicted rate prediction - validation.csv
     - 5.2.2 Prediction results for validation.csv
-  - 5.3 Apply TabICLv2 to december-chart-inputs.csv
-    - 5.3.1 Market index prediction for december-chart-inputs.csv
-    - 5.3.2 Quote signal prediction for december-chart-inputs.csv
-    - 5.3.3 Prediction results for december-chart-inputs.csv
+  - 5.3 Apply TabICLv2 to december_chart_inputs.csv
+    - 5.3.1 Market index prediction for december_chart_inputs.csv
+    - 5.3.2 Quote signal prediction for december_chart_inputs.csv
+    - 5.3.3 Prediction results for december_chart_inputs.csv
 - 6.0 Conclusion
 - 6.0 Room to improve, next steps
-    - 5.3.3 Prediction results for december-chart-inputs.csv
+    - 5.3.3 Prediction results for december_chart_inputs.csv

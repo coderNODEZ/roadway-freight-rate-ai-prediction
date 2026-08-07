@@ -11,7 +11,7 @@ def fill_validation_predicted_values() -> pd.DataFrame:
         "final_posted_rate_prediction.csv"
     )
     validation_path = Path(
-        "Data-Testing/validation-predictions-template.csv"
+        "Data-Testing/validation_predictions_template.csv"
     )
 
     prediction_df = pd.read_csv(prediction_path)
@@ -62,7 +62,7 @@ def fill_december_chart_predicted_values() -> pd.DataFrame:
         "final_posted_rate_prediction.csv"
     )
     validation_path = Path(
-        "Data-Testing/december-chart-inputs.csv"
+        "Data-Testing/december_chart_inputs.csv"
     )
 
     prediction_df = pd.read_csv(prediction_path)

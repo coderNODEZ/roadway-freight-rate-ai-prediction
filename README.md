@@ -9,7 +9,7 @@ This repository contains an applied machine-learning analysis of roadway truckin
 The primary analysis is contained in:
 
 ```text
-/Dev/FreightRatesAnalysisPrediction.ipynb
+/FreightRatesAnalysisPrediction.ipynb
 ```
 
 > **Recommended:** Open this notebook with **JupyterLab**, not the classic `jupyter notebook` interface.
@@ -23,10 +23,50 @@ jupyter lab
 Then navigate to:
 
 ```text
-/Dev/FreightRatesAnalysisPrediction.ipynb
+/FreightRatesAnalysisPrediction.ipynb
 ```
 
 JupyterLab is recommended because the notebook makes extensive use of structured sections, navigation, rendered HTML, tables, and model-analysis output that are easier to work with in the JupyterLab interface.
+
+After opening FreightRatesAnalysisPrediction.ipynb with Jupyter Lab be sure to click the table of contents icon on the top left for easier navigation!
+
+score.py is located in:
+
+```text
+/score.py
+```
+
+validation_predictions.csv is located in 2 paths:
+
+```text
+/validation_predictions.csv
+/data/validation_predictions.csv
+```
+
+december_chart_inputs.csv is located in 2 paths:
+
+```text
+/december_chart_inputs.csv
+/data/december_chart_inputs.csv
+
+Scoring results:
+
+```text
+(score-venv) ~/DataSci2/Dev$ python score.py --predictions data/validation_predictions.csv --december-predictions data/december_chart_inputs.csv
+Validated 12,000 final predictions.
+Validated 31 fixed December predictions.
+Created chart: scorer_results/candidate_december.png
+Final validation metrics are calculated by Spotter after submission.
+
+(score-venv) ~/DataSci2/Dev$ python score.py --predictions validation_predictions.csv --december-predictions data/december_chart_inputs.csv
+Validated 12,000 final predictions.
+Validated 31 fixed December predictions.
+Created chart: scorer_results/candidate_december.png
+Final validation metrics are calculated by Spotter after submission.
+```
+
+
+
 
 ## Project Overview
 
@@ -123,7 +163,7 @@ The trained model is applied to `validation.csv`.
 
 #### 5.3 December Chart Inputs
 
-The prediction pipeline is also applied to `december-chart-inputs.csv`.
+The prediction pipeline is also applied to `december_chart_inputs.csv`.
 
 * Predict `market_index`
 * Predict `quote_signal`
