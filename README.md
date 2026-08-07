@@ -189,12 +189,9 @@ The project demonstrates an end-to-end freight-rate modeling workflow that moves
 
 Further work should focus on increasing the amount of real-world operational and market information available to the models and on testing more adaptive modeling strategies.
 
-* Improve fuel-price features with regional, temporal, and route-specific fuel dynamics
-* Incorporate GPS and sensor-derived route features
-* Integrate vehicle telemetry and operational data
-* Add commodity futures and forward-looking energy-market signals
-* Expand residual and extreme-outlier analysis
-* Evaluate ensemble and hybrid modeling approaches
-* Test reinforcement-learning approaches for dynamic freight-rate estimation
-* Continue comparative testing of emerging tabular foundation models
+* Improve fuel features with more accurate, localized, and relevant fuel price data
+* Engineer features from GPS and vehicle
+* Integrate vehicle telemetry such as speed, idle time, fuel efficiency, engine load, braking, and utilization measures.
+* Add commodity futures and related market data to better account for costs.
+* Test reinforcement-learning approaches for dynamic freight-rate estimation.capture current and forward-looking sensor data.
 

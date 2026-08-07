@@ -189,15 +189,18 @@ def preprocess_freight_data_controller(data: pd.DataFrame) -> pd.DataFrame:
     """Controller for the freight-data preprocessing functions."""
 
     data = add_missing_load_id_column(data)
+    
     data = add_missing_coordinate_columns(data)
     
+    # weight preprocessing
     data = add_weight_status_columns(data)
     data = add_absolute_weight_column(data) 
     data = add_equipment_median_imputed_weight(data)
-    
     data = add_equipment_route_median_imputed_weight(data)
-      
+    
     data = remove_original_weight_columns(data)
+
+
     data = remove_leakage_columns(data)
     return data
 

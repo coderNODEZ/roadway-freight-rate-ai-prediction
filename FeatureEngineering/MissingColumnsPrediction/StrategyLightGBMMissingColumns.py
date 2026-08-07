@@ -253,6 +253,7 @@ def predict_market_index_column_lightgbm():
 
     print("#############################################")
     print("# LightGBM CUDA regression performance")
+    print(f"Training for {target_column} prediction")
     print(
         f"Training:   MAE={training_metrics['mae']:.6f}, "
         f"RMSE={training_metrics['rmse']:.6f}, "
@@ -277,7 +278,7 @@ def predict_market_index_column_lightgbm():
     print("#############################################")
 
     vis.plot_regression_performance(
-        model_name="TabICLv2",
+        model_name="LightGBM",
         training_metrics=training_metrics,
         validation_metrics=validation_metrics,
         testing_metrics=testing_metrics,

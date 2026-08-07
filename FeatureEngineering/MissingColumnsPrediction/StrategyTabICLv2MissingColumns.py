@@ -64,11 +64,6 @@ POSTED_RATE_PATH = (
 
 
 
-
-
-
-
-
 def predict_market_index_column_TabICLv2(predict_missing_columns=False, target_column="market_index", final_prediction=False) -> tuple[pd.DataFrame, pd.DataFrame] | None:
     """Fit and evaluate a CUDA TabICLv2 market-index regressor."""
 
