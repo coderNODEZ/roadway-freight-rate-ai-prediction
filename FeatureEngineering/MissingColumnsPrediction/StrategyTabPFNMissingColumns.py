@@ -267,6 +267,7 @@ def predict_market_index_column_tabpfn(predict=False, target="market_index"):
 
         print("#############################################")
         print("# TabPFN 3 regression performance")
+        print(f"Training for {target_column} prediction")        
         print(
             f"Training:   MAE={training_metrics['mae']:.6f}, "
             f"RMSE={training_metrics['rmse']:.6f}, "

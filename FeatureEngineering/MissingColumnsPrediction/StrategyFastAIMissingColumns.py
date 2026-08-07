@@ -305,6 +305,7 @@ def predict_market_index_column_fastai():
 
     print("#############################################")
     print("# FastAI regression performance")
+    print(f"Training for {target_column} prediction")
     print(
         f"Training:   "
         f"MAE={training_metrics['mae']:.6f}, "

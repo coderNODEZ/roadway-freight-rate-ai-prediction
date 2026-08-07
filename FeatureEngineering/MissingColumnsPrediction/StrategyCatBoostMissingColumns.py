@@ -214,6 +214,7 @@ def predict_market_index_column_catboost():
 
     print("#############################################")
     print("# CatBoost regression performance")
+    print(f"Training for {target_column} prediction")
     print(
         f"Training:   MAE={training_metrics['mae']:.6f}, "
         f"RMSE={training_metrics['rmse']:.6f}, "
